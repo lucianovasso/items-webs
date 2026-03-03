@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://items.com.ar/sitemap.xml
