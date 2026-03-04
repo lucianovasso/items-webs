@@ -200,6 +200,18 @@ nav.scrolled {
 .hero-title span { color: var(--accent); }
 .hero-title .line-muted { color: var(--muted); font-weight: 300; }
 
+.hero-tagline {
+  font-size: clamp(.85rem, 1.4vw, 1rem);
+  font-weight: 300;
+  color: var(--muted-2);
+  border-left: 1px solid rgba(93,96,211,.35);
+  padding-left: .9rem;
+  margin-bottom: 1.4rem;
+  letter-spacing: .01em;
+  opacity: 0;
+  animation: fadeUp .6s .4s ease forwards;
+}
+
 .hero-sub {
   font-size: clamp(.85rem, 1.4vw, 1rem);
   font-weight: 400;
@@ -1105,11 +1117,13 @@ footer { border-top: 1px solid var(--border); background: var(--bg-2); }
     Sistema operativo — items.com.ar
   </div>
   <h1 class="hero-title">
-    Sin carga manual<span>.</span><br>
-    Con criterio profesional<span>.</span>
+    Un estudio contable<br>
+    que opera como un sistema<span>.</span>
   </h1>
+  <p class="hero-tagline">
+    Sin carga manual. Con criterio profesional.
+  </p>
   <p class="hero-sub">
-    Un estudio contable que opera como un sistema.<br>
     <strong>Automatización real</strong> aplicada a cada proceso: vencimientos, recategorización monotributo,
     facturación, deuda. La información está lista antes de que la necesites.
   </p>
