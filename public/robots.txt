@@ -2,3 +2,21 @@ User-agent: *
 Allow: /
 
 Sitemap: https://items.com.ar/sitemap.xml
+
+# LLM Resource
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# https://items.com.ar/llms.txt
