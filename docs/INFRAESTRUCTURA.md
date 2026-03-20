@@ -21,8 +21,8 @@
 
 | Proyecto | Repo GitHub | Cloudflare Pages |
 |----------|-------------|------------------|
-| Web principal | lucianovasso/items-web | items-web |
-| Docs / artefactos | lucianovasso/items-docs | items-docs |
+| Web principal | lucianovasso/webs-items | items-web |
+| Docs / artefactos | lucianovasso/docs-items | items-docs |
 
 ---
 
